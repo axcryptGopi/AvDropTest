@@ -4,6 +4,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="AVDropTest.MainWindow"
+        DragDrop.AllowDrop="True"
+        DragDrop.DragEnter="Window_DragEnter"
+        DragDrop.DragOver="Window_DragOver"
+        DragDrop.Drop="Window_Drop"
         Title="AVDropTest">
-    Welcome to Avalonia!
+    
 </Window>
